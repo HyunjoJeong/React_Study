@@ -5,8 +5,11 @@ import user from './userReducer(완성본)';
 
 import collection from './collectionReducer';
 
+import searchFilter from './searchFilterReducer';
+
 export default {
   loading, 
   user,
-  collection
+  collection,
+  searchFilter
 };

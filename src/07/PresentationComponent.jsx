@@ -7,6 +7,7 @@ class PresentationComponent extends PureComponent {
     return (
       <div>
         이름: {userName}
+        <br />
         선택된 항목: {entity && `name: ${entity.name}, age: ${entity.age}`}
       </div>
     );
